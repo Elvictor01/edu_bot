@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: white;
+  background: #181818;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+#wrapper {
+  display: flex;
+  flex-direction: row;
+}
+#left {
+  flex: 1;
+  justify-content: center;
+}
+
+#right {
+  flex: 1;
+}
+
+#logo {
+  height: 300;
+}

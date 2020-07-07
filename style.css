@@ -23,6 +23,7 @@ h3 {
 
 #right {
   flex: 1;
+  justify-content: center;
 }
 
 #logo {
